@@ -1033,7 +1033,7 @@ public class NanoHTTPD
 	private static int theBufferSize = 16 * 1024;
 
 	// Change this if you want to log to somewhere else than stdout
-	protected static PrintStream myOut = System.out; 
+	protected static PrintStream myOut = new PrintStream(new OutputStream () {public void write(int arg0) throws IOException {}}); 
 
 	/**
 	 * GMT date formatter
