@@ -1,1 +1,1 @@
-java -jar WebSocketProxy.jar -WS3037 -P8080
+java -jar WebSocketProxy.jar -WS3037 -P8080 -S8081
